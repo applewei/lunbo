@@ -1,0 +1,25 @@
+
+
+$width: 100%;
+$widthQ: 400%;
+body,ul,li{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+.nav-content{
+    width: $width;
+    height: 300px;
+//  overflow: hidden;
+    background-color: #808080;
+    .view-list{
+        width: $widthQ;
+        li{
+            width: $widthQ / 4;
+            float: left;
+        }
+    }
+}
+

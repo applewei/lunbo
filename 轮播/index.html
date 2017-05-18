@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>普通轮播</title>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+	</head>
+	<body>
+		<div class="view-content">
+			<ul class="view-list">
+				<li><img src="2.jpg"/></li>
+				<li><img src="22.jpeg"/></li>
+				<li><img src="23.jpg"/></li>
+				<li><img src="4.jpg"/></li>
+			</ul>
+			<a class="left-move" onclick="move(1)"><img src="arrow-left.png"/></a>
+			<a class="right-move" onclick="move(-1)"><img src="arrow-right.png"/></a>
+			
+			<ul class="nav-list">
+				<li onclick="goto(0)"><img src="2.jpg"/></li>
+				<li onclick="goto(1)"><img src="22.jpeg"/></li>
+				<li onclick="goto(2)"><img src="23.jpg"/></li>
+				<li onclick="goto(3)"><img src="4.jpg"/></li>
+			</ul>
+		</div>
+		
+		<script src="index.js" type="text/javascript"></script>
+		
+	</body>
+</html>
